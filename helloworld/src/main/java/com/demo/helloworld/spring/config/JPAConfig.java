@@ -37,7 +37,6 @@ public class JPAConfig {
         em.setDataSource(dataSource());
         em.setPackagesToScan("com.demo.helloworld.spring.jpa.models");
         em.setJpaVendorAdapter(vendorAdapter);
-//        em.setJpaProperties(additionalProperties());
         return em;
     }
 
